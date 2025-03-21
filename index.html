@@ -5,76 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - Gustavo</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <header>
-        <h1>Gustavo Salmeron</h1>
-        <p>Desarrollador Full-Stack</p>
+        <h1>Gustavo Salmeron Ruiz</h1>
+        <nav>
+            <a href="#about">Acerca de mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#certifications">Educación y Certificaciones</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Sección Acerca de mí -->
+        <section id="about" class="section">
+            <h2>Acerca de mí</h2>
+            <div>
+                <p>Hola, soy Gustavo Salmeron Ruiz, un Desarrollador Full-Stack con experiencia en desarrollo web. 
+                    Me encanta aprender cosas nuevas y enfrentar desafíos. Siempre estoy buscando mejorar mis habilidades 
+                    y aprender nuevas tecnologías. Actualmente, curso la Ingeniería en Desarrollo de Software en la 
+                    Universidad Virtual del Estado de Guanajuato y aprendo desarrollo web en el Bootcamp Java Full-Stack 
+                    de Generation México.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Azmur97" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gustavosalmeronruiz/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:salmeronruizgustavo@gmail.com" aria-label="Correo electrónico">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="projects" class="section">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>🛒 Deportlan</h3>
+                    <p>Deportlan es una página de e-commerce para productos deportivos desarrollada durante un hackatón. 
+                        Tecnologías utilizadas: HTML, CSS y JavaScript.</p>
+                    <img src="./Img/Deportlan.png" alt="Captura de la plataforma Deportlan">
+                    <a href="https://github.com/Equipo-Quijda/hackaton-deportes" target="_blank"
+                        rel="noopener noreferrer" class="project-link">
+                        Código en GitHub <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>🛒 Mictlan</h3>
+                    <p>Plataforma de e-commerce para un bar en Tecamachalco, Puebla. Frontend con HTML, CSS, JavaScript 
+                        y Bootstrap; Backend con Java, Spring Boot y MySQL.</p>
+                    <img src="./Img/Mictlan.png" alt="Captura de la plataforma Mictlan">
+                    <a href="https://github.com/Equipo-Quijda/Proyecto-Integrador-Mictl-n" target="_blank"
+                        rel="noopener noreferrer" class="project-link">
+                        Código en GitHub <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="skills" class="section">
+            <h2>Habilidades</h2>
+            <div class="cv-section">
+                <div class="skills">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>Bootstrap</li>
+                        <li>Git/GitHub</li>
+                        <li>Metodología TRACI para optimización de prompts en IA</li>
+                        <li>Comunicación asertiva</li>
+                        <li>Trabajo en equipo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Certificaciones -->
+        <section id="certifications" class="section">
+            <h2>Educación y Certificaciones</h2>
+            <div class="cv-section">
+                <div class="certifications">
+                    <ul>
+                        <li>UVEG Ingeniería en Desarrollo de Software - 2024 - Presente</li>
+                        <li>Oracle Next Education F2 T6 Back-end - 2024</li>
+                        <li>Google Cloud Computing Foundations - 2025</li>
+                        <li>Generation Bootcamp Java Full-Stack - 2025</li>
+                        <li>Fundamentos de Java (Fundaula) - 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Portafolio de proyectos - Gustavo Salmeron Ruiz</p>
         <div class="social-links">
-            <a href="https://github.com/Azmur97" target="_blank" aria-label="GitHub">
+            <a href="https://github.com/Azmur97" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/gustavosalmeronruiz/" target="_blank" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/gustavosalmeronruiz/" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a href="mailto:salmeronruizgustavo@gmail.com" aria-label="Correo electrónico">
                 <i class="fas fa-envelope"></i>
             </a>
         </div>
-    </header>
-
-    <div class="container">
-        <!-- Sección Acerca de mí -->
-        <section class="section">
-            <h2>Acerca de mí</h2>
-            <div>
-                <p>Hola, soy Gustavo. Apasionado de la tecnología, desarrollador Full-Stack con experiencia en desarrollo web. Me encanta aprender cosas nuevas y enfrentar desafíos. Siempre estoy buscando mejorar mis habilidades y aprender nuevas tecnologías.</p>
-            </div>
-        </section>
-
-        <!-- Sección Proyectos -->
-        <section class="section">
-            <h2>Proyectos Destacados</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>🛒 Deportlan</h3>
-                    <p>Plataforma de comercio electrónico para productos deportivos.</p>
-                    <img src="./Img/Deportlan.png" alt="Captura de la plataforma Deportlan">
-                    <a href="https://github.com/Equipo-Quijda/hackaton-deportes" class="project-link">Código en GitHub <i class="fab fa-github"></i></a>
-                </div>
-                <div class="project-card">
-                    <h3>🛒 Mictlan</h3>
-                    <p>Plataforma de comercio electrónico para un bar.</p>
-                    <img src="./Img/Mictlan.png" alt="Captura de la plataforma Mictlan">
-                    <a href="https://github.com/Equipo-Quijda/Proyecto-Integrador-Mictl-n" class="project-link">Código en GitHub <i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección Habilidades -->
-        <section class="section">
-            <h2>Habilidades y Certificaciones</h2>
-            <div class="cv-section">
-                <div class="skills">
-                    <h3><i class="fas fa-code"></i> Habilidades Técnicas</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript (Básico)</li>
-                        <li>Java (Básico)</li>
-                        <li>Diseño de prompts para IA</li>
-                    </ul>
-                </div>
-                <div class="certifications">
-                    <h3><i class="fas fa-certificate"></i> Certificaciones</h3>
-                    <ul>
-                        <li>Google Cloud Computing Foundations - 2023</li>
-                        <li>Oracle Next Education F2 T6 Back-end - 2024</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </div>
+    </footer>
 </body>
 </html>
